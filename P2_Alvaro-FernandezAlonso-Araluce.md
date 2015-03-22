@@ -1,1 +1,1 @@
-![](imagenes/1.1.png)
+![Ejercicio1](imagenes/2.1.png "Probar el funcionamiento de la copia de archivos por ssh")
