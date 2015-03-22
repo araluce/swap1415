@@ -2,8 +2,8 @@
 
 ### Práctica 1: _Preparación de las herramientas_ 
 
+#### Copiar el resultado de ejecutar: _apache2 -v_ 
 
-#_apache2 -v_#
 ***
 
 Server version:	Apache/2.2.22 (Ubuntu)
@@ -12,7 +12,7 @@ Server built:	Jul 22 2014 14:37:02
 
 ***
 
-#_ps aux | grep apache_#
+#### Copiar el resultado de ejecutar: _ps aux | grep apache_
 
 ***
 
