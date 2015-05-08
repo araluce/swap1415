@@ -1,8 +1,8 @@
 # swap1415
 
-### Práctica 1: _Preparación de las herramientas_ 
+### Práctica 1: _Preparación de las herramientas_
 
-#### Copiar el resultado de ejecutar: _apache2 -v_ 
+#### Copiar el resultado de ejecutar: _apache2 -v_
 
 ***
 
@@ -57,7 +57,7 @@ tar czf - directorio/ | ssh 192.168.1.3 'cat > ~/tar.tgz'
 
 ***
 rsync -avz -e ssh root@192.168.1.2:/home/araluce/directorio /home/araluce/
-*** 
+***
 
 3. Como resutado de eso, el directorio _"directorio"_ ha sido clonado en la máquina 1 y podemos comprobar que el archivo _"archivo.txt"_ se encuentra dentro del directorio
 
@@ -124,7 +124,7 @@ Editamos el fichero _/etc/nginx/conf.d/default.conf_ y definimos el grupo de ser
 
 Y definimos la sección server (para que nginx utilice el grupo apaches que hemos definido) como sigue:
 
-Antes de comprobar si funciona o no tendremos que 
+Antes de comprobar si funciona o no tendremos que
 
 ![ServerSection](imagenes/3.2-ServerSection.png "Definimos la sección server")
 
@@ -156,7 +156,7 @@ Y ahora si:
 
 ![HaproxyTest](imagenes/3.7-Comprobacion-haproxy.png "Comprobamos que se balancea correctamente el tráfico")
 
-## Practica 3: _Comprobar el rendimiento de servidores web_
+## Practica 4: _Comprobar el rendimiento de servidores web_
 
 Recursos disponibles para esta práctica:
 Servidor Web 1: 192.168.1.100
@@ -185,7 +185,7 @@ Los resultados obtenidos en forma de tabla y gráfica son los siguientes:
 
 ![abResultado](imagenes/4.4-ab-resultado.png "Resultados tabla y gráfica ab")
 
-Ahora realizamos el mismo ataque al balanceador. Comenzamos con el balanceador nginx. 
+Ahora realizamos el mismo ataque al balanceador. Comenzamos con el balanceador nginx.
 
 Para eso debemos parar el servicio _haproxy_ e iniciar el servicio _nginx_
 
@@ -201,7 +201,7 @@ Ahora paramos el servicio _nginx_ e iniciamos el servicio _haproxy_, los resulta
 
 Instalamos _siege_ con el comando apt.
 
-##### 2.1. Ataque al SW-1 _(SWAP1415-1)_ 
+##### 2.1. Ataque al SW-1 _(SWAP1415-1)_
 Procedemos a atacar directamente al servidor web desde la máquina cliente con este comando:
 
 ![siegeAtaque](imagenes/4.9-siege.png "Ataque por siege a SWAP1415-1")
@@ -235,20 +235,99 @@ Después de esto, procedemos a realizar los ataques directamente al servidor web
 
 ![httperfAtaque](imagenes/4.7-httperf.png "Ataque por httperf a SWAP1415-1")
 
-Se ve que el ataque con el cliente 1 se realiza a 192.168.1.101, pero los resultados en las tablas y gráficas son ataques realizados desde los dos clientes a 192.168.1.100. 
+Se ve que el ataque con el cliente 1 se realiza a 192.168.1.101, pero los resultados en las tablas y gráficas son ataques realizados desde los dos clientes a 192.168.1.100.
 
 Los resultados obtenidos son los siguientes:
 
 ![httperfResultado](imagenes/4.8-httperf-resultado.png "Resultado de taque por httperf a SWAP1415-1")
 
-Es interesante el dato que arroja el ataque 7. Teniendo en cuenta que cada ataque se ha realizado simultáneamente con dos clientes y que el ataque 7, al ser impar, se ha realizado de forma independiente, el número de errores es mucho menor que el de otros ataques ejecutados desde dos clientes simultáneamente. 
+Es interesante el dato que arroja el ataque 7. Teniendo en cuenta que cada ataque se ha realizado simultáneamente con dos clientes y que el ataque 7, al ser impar, se ha realizado de forma independiente, el número de errores es mucho menor que el de otros ataques ejecutados desde dos clientes simultáneamente.
 
-Puesto que los demás ataques se han realizado simultáneamente, este último dato va a descuadrar todas las estadísticas, así que lo pondremos como un dato interesante pero no lo metemos en el grupo de datos a los que vamos a hacer la media y desviación. 
+Puesto que los demás ataques se han realizado simultáneamente, este último dato va a descuadrar todas las estadísticas, así que lo pondremos como un dato interesante pero no lo metemos en el grupo de datos a los que vamos a hacer la media y desviación.
 
-### Práctica 5
-Replicación de bases de datos maestro-esclavos
+## Practica 5: _Replicación de bases de datos MySQL_
+
+Recursos disponibles para esta práctica:
+BD_server1: 192.168.1.100
+BD_Server2: 192.168.1.101
+
+##### 5.1 Creación de BD
+
+Vamos a crear la tabla _datos_ en una base de datos en _BD_server1_ llamada _SWAPDB_
+
+![Swapbd1](imagenes/5.1-swapdb.png "Creacion de swapdb")
+![Swapbd2](imagenes/5.2-swapdb.png "Creacion tabla datos e insercion de datos")
+
+##### 5.2 Replica y recuperación de la BD _swapdb_
+
+En esta sección crearemos una copia de seguridad y la pasaremos a **_BD_server2_** y le indicaremos a esta última que restaure los datos.
+
+Antes de hacer la copia que va a copiar nuestra máquina2 bloqueamos la inserción de datos en la base de datos creada para que no se inserten datos mientras realizamos la copia.
+
+![LockDB](imagenes/5.4-lock.png "Bloqueo de BD")
+
+Realizamos la copia en nuestro directorio **/root/**
+
+![StoreDB](imagenes/5.5-storedb.png "Copia de la BD")
+
+Y desbloqueamos para poder insertar datos
+
+![UnlockDB](imagenes/5.6-unlockdb.png "Desbloqueo BD")
+
+Ahora desde la máquina **_BD_server2_** copiamos el archivo sql a nuestro directorio **/root/**
+
+![CopyDB](imagenes/5.7-copydb.png "Copia BD mediante ssh")
+
+Antes de restaurar la copia debemos crear una BD con idéntico nombre a la que deseamos importar.
+
+![CreateDB2](imagenes/5.8-createdb2.png "Creacion BD 2")
+
+Y rellenamos los datos importando el fichero **_swapdb.sql_** que ahora se encuentra en nuestro directorio /root/
+
+![RestoreDB](imagenes/5.9-restoredb.png "Restauración de BD")
+
+##### 5.3 Realizar configuración maestro-esclavo para replicación de datos automática
+
+En un entorno real necesitamos que estas copias se realicen de forma automática. Podemos, para ello, configurar dos máquinas de modo que una de ellas asimile el rol de maestro y la otra de esclavo.
+
+La configuración del maestro es sencilla. Simplemente debemos modificar como **root** el fichero de configuración de mysql **_/etc/mysql/my.conf_**. Para ello las siguientes directivas deben quedar así:
+
+```
+#bind-address 127.0.0.1
+log_error = /var/log/mysql/error.log
+server-id = 1
+log_bin = /var/log/mysql/bin.log
+```
+
+Sin olvidarnos de reiniciar el servicio
+``/etc/init.d/mysql restart``
+
+Ahora debemos configurar de la misma forma la máquina que adquiere rol de esclavo.
+
+El fichero a configurar es el mismo, con las mismas directivas salvo que el valor de **server-id** será dos. Ésto es ``server-id=2``
+
+Además como la distribución de mysql es 5.5 no tenemos por qué definir los datos del **master**.
+
+![MysqlVersion](imagenes/5.10-Mysqlversion.png "Versión de Mysql")
+
+Después de reiniciar el servicio esclavo volvemos al maestro para definir un usurio y darle a ese usuario permisos de replicación de los datos.
+
+Como antes, durante ese proceso vamos a bloquear consultas a las tablas para que durante este proceso no se produzcan errores. Con los datos obtenidos del maestro configuraremos el esclavo y lo activaremos.
+
+![MasterSlaveConfig](imagenes/5.11-MasterSlaveConf.png "Configuración del maestro y esclavo")
+
+No debemos olvidar volver a desbloquear las tablas en la máquina maestra para que puedan realizarse operaciones sobre ellas.
+
+``mysql> UNLOCK TABLES``
+
+Al introducir el comando **_SHOW SLAVE STATUS\G_** en la máquina esclava vemos que arroja un **Seconds_Behind_Master** distinto a _null_.
+
+![SecondBehindMaster](imagenes/5.12-Secondnonull.png "Second_Behind_Master no nulo")
+
+Podemos hacer la prueba añadiendo tablas al master y viendo cómo el esclavo hace la réplica.
+
+
+![TestMysql](imagenes/5.13-TestMysqlReplication.png "Prueba de replicación maestro-esclavo")
 
 ### Práctica 6
 Configuración de discos en RAID
-
-
