@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 2: Alta Disponibilidad y Escalabilidad" cantidad_preguntas="91">
+<tema titulo="Tema 2: Alta Disponibilidad y Escalabilidad" cantidad_preguntas="Cantidad de preguntas: 91">
+    <preguntas>91</preguntas>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Escalabildad. Si la CPU está cerca del 100% too el rato y el resto de subsistemas no está sobrecargado...</enunciado>
         <opcionA>Apagar todo y dejar que se enfríe.</opcionA>
         <opcionB>Comprar ventiladores y métodos de refrigeración para que rinda mejor.</opcionB>
@@ -9,6 +11,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Escalabilidad. Si el uso de RAM es muy alto, veremos un uso alto de disco (por swapping).Si..</enunciado>
         <opcionA>Incrementamos la RAM mejoraremos el rendimiento.</opcionA>
         <opcionB>Incrementamos la RAM, el rendimiento seguirá igual, porque no depende de ésta.</opcionB>
@@ -17,6 +20,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El balanceador de carga..</enunciado>
         <opcionA>Hace que todas las peticiones pasen por todos los servidores.(de ahí el termino balanceador)</opcionA>
         <opcionB>Pasa peticiones a los servidores según el tráfico de la red.</opcionB>
@@ -25,6 +29,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿En qué consiste la ampliación horizontal?:</enunciado>
         <opcionA>Es un tipo de escalado en el cual mejoramos una máquina concreta.</opcionA>
         <opcionB>Es un tipo de escalado en el cual añadimos máquinas a algún subsistema.</opcionB>
@@ -33,6 +38,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En cuanto a alta disponibilidad de un servidor... :</enunciado>
         <opcionA>Lo ideal sería tener sólo tiempos de no-disponibilidad programados lo más cortos posibles.</opcionA>
         <opcionB>Lo ideal sería tener sólo tiempos de no-disponibilidad programados lo más largos posibles.</opcionB>
@@ -41,6 +47,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual de los siguientes algoritmos no se usa en el balanceo de carga?</enunciado>
         <opcionA>Round-Robin</opcionA>
         <opcionB>Ponderación</opcionB>
@@ -49,6 +56,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Con el objetivo de conseguir una alta disponibilidad de la red, ¿A que nivel debe tener redundancia la red?</enunciado>
         <opcionA>Solo en la conexión a Internet</opcionA>
         <opcionB>Solo en Routers/cortafuegos/balanceadores</opcionB>
@@ -57,6 +65,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué tipo de escalado o ampliación consiste en incrementar la RAM, la CPU y el disco de un servidor?</enunciado>
         <opcionA>Ampliación frontal</opcionA>
         <opcionB>Ampliación horizontal</opcionB>
@@ -65,6 +74,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si configuramos los servidores con redundancia mediante el software :</enunciado>
         <opcionA>Mejora la escalabilidad</opcionA>
         <opcionB>Empeora la escalabilidad</opcionB>
@@ -73,6 +83,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuantos tipos de escalado existen?</enunciado>
         <opcionA>Solamente 1 -> Ampliación horizontal</opcionA>
         <opcionB>Solamente 2 -> Ampliación horizontal y ampliación escalada</opcionB>
@@ -81,6 +92,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que entendemos por alta disponibilidad?</enunciado>
         <opcionA>Capacidad del servidor de aceptar visitas las 24h todos los días</opcionA>
         <opcionB>Capacidad del servidor de aceptar visitas 13h todos los días</opcionB>
@@ -89,6 +101,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que significa "Tiempo de no-disponibilidad programado"?</enunciado>
         <opcionA>Tiempo en el que el servidor no esta disponible debido a que se encuentra caído</opcionA>
         <opcionB>Tiempo en el que el servidor no esta disponible debido a actualizaciones (del SO, aplicaciones, hardware..)</opcionB>
@@ -97,6 +110,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál es la fórmula de la escala "punto nueve"?</enunciado>
         <opcionA>100 - (tiempoCaido / periodoTiempo) * 100</opcionA>
         <opcionB>100 - (tiempoActivo / periodoTiempo) * 100</opcionB>
@@ -105,6 +119,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál es una buena forma de aumentar la disponibilidad?</enunciado>
         <opcionA>El uso de componentes de alta calidad</opcionA>
         <opcionB>Usar subsistemas redundantes</opcionB>
@@ -113,6 +128,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué significa el termino escalabilidad?</enunciado>
         <opcionA>Capacidad del servidor de aceptar visitas las 24h todos los días</opcionA>
         <opcionB>Nivel de estrés del encargado del servidor</opcionB>
@@ -121,6 +137,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué dos tipos de escalado hay?</enunciado>
         <opcionA>Vertical y diagonal</opcionA>
         <opcionB>Diagonal e indexado</opcionB>
@@ -129,6 +146,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué entendemos por ampliación o escalado vertical?</enunciado>
         <opcionA>Incrementar RAM, CPU, disco de un servidor</opcionA>
         <opcionB>Añadir máquinas a algún subsistema</opcionB>
@@ -137,6 +155,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de los siguientes no es un algoritmo utilizado para decidir qué máquina final servirá las peticiones?</enunciado>
         <opcionA>Trabajo mas Corto(SJF).</opcionA>
         <opcionB>Por turnos(Round-Robin).</opcionB>
@@ -145,6 +164,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El uso de subsistemas redundantes y monitorizarlos mejora la...</enunciado>
         <opcionA>Disponibilidad de servidor.</opcionA>
         <opcionB>Disponibilidad de aplicación.</opcionB>
@@ -153,6 +173,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo podemos mejorar la disponibilidad?</enunciado>
         <opcionA>Configurar los servidores con redundancia mediante el software.</opcionA>
         <opcionB>a y c son correctas.</opcionB>
@@ -161,6 +182,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo podemos eliminar la sobrecarga?</enunciado>
         <opcionA>Intentando no sobrecargar la máquina.</opcionA>
         <opcionB>Remplazar el componente sobrecargado o aumentándole la cantidad o simplemente contratando algo mejor.</opcionB>
@@ -169,6 +191,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que es la Disponibilidad?</enunciado>
         <opcionA>Capacidad de aceptar visitas las 24h todos los días.</opcionA>
         <opcionB>Medida, que indica el numero de usuarios que pueden acceder a nuestra página WEB</opcionB>
@@ -177,6 +200,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué que mide la escala .9?</enunciado>
         <opcionA>Mide el tiempo que esta nuestro servidor operativo en tanto por ciento</opcionA>
         <opcionB>Mide la velocidad de respuesta de un servidor WEB a las peticiones de un cliente</opcionB>
@@ -185,6 +209,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Como se suele implementar la escalabilidad?</enunciado>
         <opcionA>Se ponen mas servidores redundantes</opcionA>
         <opcionB>Se intenta poner el mayor numero de servidores apilados en un mismo armario</opcionB>
@@ -193,6 +218,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuantos tipos de escalado hay?:</enunciado>
         <opcionA>Uno, diseñando de nuevo el sistema o lo que es lo mismo escalado conceptual.</opcionA>
         <opcionB>Uno, escalado LDAP , es decir, defieniendo el acceso ligero a directorios.</opcionB>
@@ -201,6 +227,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Para detectar problemas y determinar posibles mejores del sitio web se recomienda usar:</enunciado>
         <opcionA>La herramienta de monitorizacion SAR.</opcionA>
         <opcionB>La herramienta de monitorizacion Nagios.</opcionB>
@@ -209,6 +236,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Si estamos actualizando nuestro servidor web, por ejemplo nginx,en nuestras máquinas, qué tipo de tiempo de no-disponibilidad es?</enunciado>
         <opcionA>Programado</opcionA>
         <opcionB>El servidor está disponible 24/7 por favor!</opcionB>
@@ -217,6 +245,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Si tenemos una disponibilidad anual del 98%, que tiempo en total estaremos caídos ?</enunciado>
         <opcionA>6.3 días</opcionA>
         <opcionB>8.7 días</opcionB>
@@ -225,6 +254,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estos algoritmos no es un algoritmo de balanceo?</enunciado>
         <opcionA>Según el tiempo de respuesta.</opcionA>
         <opcionB>Round-Robin.</opcionB>
@@ -233,6 +263,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>BigIP es un balanceador hardaware de la empresa...</enunciado>
         <opcionA>F5</opcionA>
         <opcionB>Cisco</opcionB>
@@ -241,6 +272,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Podemos decir que un servidor tiene alta disponibilidad cuando...</enunciado>
         <opcionA>Entramos al sitio y vemos que esta caido.</opcionA>
         <opcionB>Es capaz de soportar pocos usuarios al mismo tiempo.</opcionB>
@@ -249,6 +281,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Transformar el servidor web en una granja web resulta:</enunciado>
         <opcionA>Sencillo, ya que apenas hay que preparar aplicaciones para distribuir la carga.</opcionA>
         <opcionB>Un proceso sencillo.</opcionB>
@@ -257,6 +290,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Ante la sobrecarga de alguno de los componentes del servidor...</enunciado>
         <opcionA>se debe sustituir por otro más potente</opcionA>
         <opcionB>se debe dejar así</opcionB>
@@ -265,6 +299,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Una disponibilidad del 99% significa que podemos esperar un downtime máximo de:</enunciado>
         <opcionA>88 Horas al año</opcionA>
         <opcionB>44 horas al año</opcionB>
@@ -273,6 +308,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estos eventos conllevaría un tiempo de no-disponibilidad no programado?</enunciado>
         <opcionA>Actualizaciones del SO</opcionA>
         <opcionB>Actualizaciones del hardware</opcionB>
@@ -281,6 +317,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estos algoritmos no es utilizado por los balanceadores de carga para decidir qué máquina final servirá cada petición?</enunciado>
         <opcionA>Por probabilidades</opcionA>
         <opcionB>Según el menor número de conexiones</opcionB>
@@ -289,6 +326,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué nos proporciona un mayor impacto en la escalabilidad de nuestro sistema?</enunciado>
         <opcionA>Optimización de nuestros recursos hardware.</opcionA>
         <opcionB>Optimización de nuestro código.</opcionB>
@@ -297,6 +335,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿A qué va ligado el concepto de "balanceo de carga"?</enunciado>
         <opcionA>A la disponibilidad de nuestro sitio web.</opcionA>
         <opcionB>A la escalabilidad de nuestro sitio web.</opcionB>
@@ -305,6 +344,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Con respecto a la disponibilidad de un sitio web:</enunciado>
         <opcionA>Todas las caidas del servidor se producen de forma inesperada.</opcionA>
         <opcionB>Unicamente existen tiempos de no-disponibilidad programados.</opcionB>
@@ -313,6 +353,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si replicásemos un servidor de un sistema con una disponibilidad de un 90%</enunciado>
         <opcionA>No se obtendría ninguna mejora</opcionA>
         <opcionB>Se obtendría una mejora del 9%</opcionB>
@@ -321,6 +362,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué es la disponibilidad?</enunciado>
         <opcionA>Capacidad de aceptar visitas las 24h todos los días.</opcionA>
         <opcionB>Capacidad de aceptar visitas las 24h todos los días exceptuando festivos.</opcionB>
@@ -329,6 +371,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>La réplica de componentes en un sistema web mejora la disponibilidad del sistema.</enunciado>
         <opcionA>La mejora, pero no se lleva a cabo puesto que es muy caro.</opcionA>
         <opcionB>Siempre se mejora, replicando algún componente.</opcionB>
@@ -337,6 +380,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Dentro de la Escabilidad está el tipo de escalado Ampliación Vertical que se trata de:</enunciado>
         <opcionA>Incrementar los componentes de un servidor (RAM, CPU, Disco Duro).</opcionA>
         <opcionB>Incrementar los componentes y además añadir máquinas.</opcionB>
@@ -345,6 +389,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál es la mejor manera de mejorar la disponibilidad?</enunciado>
         <opcionA>Uso de sistemas redundantes.</opcionA>
         <opcionB>Uso de sistemas no redundantes.</opcionB>
@@ -353,6 +398,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿En qué consiste la escalabilidad?</enunciado>
         <opcionA>Capacidad de un sistema de manejar la carga.</opcionA>
         <opcionB>Capacidad de un sistema de manejar la carga y el esfuerzo para adaptarse al nuevo nivel de carga.</opcionB>
@@ -361,6 +407,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual de las siguientes afirmaciones es falsa cuando hablamos de diseñar la escalabilidad de un servidor?</enunciado>
         <opcionA>Diseñar aplicaciones no-conmutables, ya que en este caso, dos o más operaciones se pueden aplicar en cualquier orden y obtener el mismo resultado</opcionA>
         <opcionB>Un proceso no debe esperar nunca mas de lo necesario</opcionB>
@@ -369,6 +416,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué estamos haciendo cuando realizamos una ampliación vertical a un servidor?:</enunciado>
         <opcionA>Incremental la RAM, el disco duro ... y en general cualquier elemento físico de éste.</opcionA>
         <opcionB>Añadir réplicas a algun subsistema. (un nuevo servidor web, nuevo servidor de datos..)</opcionB>
@@ -377,6 +425,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo se mejora la disponibilidad de un servidor?</enunciado>
         <opcionA>Replicando elementos hardware</opcionA>
         <opcionB>Replicando elementos de red</opcionB>
@@ -385,6 +434,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>La estabilidad de un sistema se puede conseguir…</enunciado>
         <opcionA>obteniendo máquinas más potentes de lo necesario</opcionA>
         <opcionB>replicando máquinas para las mismas tareas</opcionB>
@@ -393,6 +443,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En un sistema escalable…</enunciado>
         <opcionA>la optimización del hardware es primordial</opcionA>
         <opcionB>la optimización del código es muy importante aunque no tanto como la optimización del hardware</opcionB>
@@ -401,6 +452,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de las siguientes respuestas NO está relacionada con la disponibilidad del servidor?:</enunciado>
         <opcionA>Disponibilidad de Hardware</opcionA>
         <opcionB>Disponibilidad de servidor.</opcionB>
@@ -409,6 +461,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué es la escalabilidad?</enunciado>
         <opcionA>Cuando dos máquinas tienen la posibilidad de trabajar de manera conjunta.</opcionA>
         <opcionB>Es alcanzar el objetivo esperado con el menor gasto de recursos.</opcionB>
@@ -417,6 +470,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Como se consigue alta disponibilidad?</enunciado>
         <opcionA>Con el uso de subsistemas redundantes y monitorizarlos mejora la disponibilidad del sistema global.</opcionA>
         <opcionB>Solo con el uso de sistemas redundantes.</opcionB>
@@ -425,6 +479,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿A que se refiere la escalabilidad?</enunciado>
         <opcionA>Esta pregunta no tiene sentido.</opcionA>
         <opcionB>El que se puedan apilar torres de ordenador una encima de otra</opcionB>
@@ -433,6 +488,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que incrementa la ampliacion vertical?</enunciado>
         <opcionA>Incrementa la Ram.</opcionA>
         <opcionB>Incrementa la CPU.</opcionB>
@@ -441,6 +497,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Como analizamos la sobrecarga?</enunciado>
         <opcionA>Si la CPU está cerca del 100% todo el rato y el resto de subsistemas no está sobrecargado, sustituir por una CPU más potente.</opcionA>
         <opcionB>Todas las demas son ciertas.</opcionB>
@@ -449,6 +506,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Los porcentajes de disponibilidad medidos según la escala 'punto nueve' son...</enunciado>
         <opcionA>Indiferentes siempre y cuando superen el 90%.</opcionA>
         <opcionB>Suficientes siempre y cuando superen el 80%.</opcionB>
@@ -457,6 +515,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El porcentaje de disponibilidad...</enunciado>
         <opcionA>Crece cuantas más máquinas repliquemos en la granja web.</opcionA>
         <opcionB>No crece, se mantiene. Las máquinas se replican por seguridad del sistema.</opcionB>
@@ -465,6 +524,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Las aplicaciones en los servidores que integran las granjas web...</enunciado>
         <opcionA>Pueden provocar problemas en la disponibilidad de los servidores ya que pueden darse conflictos entre los módulos que las componen. Por este motivo es imprescindible monitorizarlas y usar librerías específicas para hacerlas altamente disponibles.</opcionA>
         <opcionB>Son independientes y no influyen en la disponibilidad de los servidores.</opcionB>
@@ -473,6 +533,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Los tiempos de no disponibilidad se clasifican en:</enunciado>
         <opcionA>Mantenimiento y testeo.</opcionA>
         <opcionB>Programados y no programados.</opcionB>
@@ -481,6 +542,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>La ampliacion vertical consiste en:</enunciado>
         <opcionA>Ampliar el número de servidores de un rack.</opcionA>
         <opcionB>Ampliar el número de rack de una granja de servidores.</opcionB>
@@ -489,6 +551,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El diseño debe tener redundancia a todos los niveles:</enunciado>
         <opcionA>Conexión a Internet</opcionA>
         <opcionB>Routers/cortafuegos/balanceadores</opcionB>
@@ -497,6 +560,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuantos tipos de escalabilidad existen?</enunciado>
         <opcionA>3</opcionA>
         <opcionB>2</opcionB>
@@ -505,6 +569,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si nuestro servidor sufre una caída de 2.5 horas en una semana, ¿cuál es su disponibilidad?</enunciado>
         <opcionA>99.4047%</opcionA>
         <opcionB>98.8095%</opcionB>
@@ -513,6 +578,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Para mantener la alta disponibilidad en nuestro servidor, ¿qué tipo de no-disponibilidad debería haber?</enunciado>
         <opcionA>Tiempos de no-disponibilidad programados.</opcionA>
         <opcionB>Tiempos de no-disponibilidad programados y lo más cortos posibles.</opcionB>
@@ -521,6 +587,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que factores influyen en la escalabilidad de un sistema?</enunciado>
         <opcionA>Adquirir productos hardware con elementos duplicados.</opcionA>
         <opcionB> Sustituir elementos hardware por otros con mayores prestaciones.</opcionB>
@@ -529,6 +596,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Para qué sirve un balanceador de carga?</enunciado>
         <opcionA>Para comprobar que peticiones son más importantes y atenderlas primero.</opcionA>
         <opcionB>Para comprobar el porcentaje de uso de los elementos hardware.</opcionB>
@@ -537,6 +605,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Seleccione cual de las siguientes afirmaciones sobre el concepto de escalabilidad es correcta:</enunciado>
         <opcionA>La escalabilidad es la capacidad de un sistema a manejar la carga y el esfuerzo para adaptarse al nuevo nivel de carga.</opcionA>
         <opcionB>Decidir como añadir más recursos al sistema web es crucial en el diseño inicial y en el mantenimiento.</opcionB>
@@ -545,6 +614,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Referente a los tipos de escalado:</enunciado>
         <opcionA>Existen dos tipos de escalado: escalado vertical y escalado horizontal. La escalabilidad vertical consiste en añadir máquinas al sistema, por eso, este tipo de escalado es suficiente.</opcionA>
         <opcionB>La escalabilidad horizontal es la mejor opción, incrementando la RAM y CPU de nuestro servidor, conseguiremos una gran capacidad de procesamiento.</opcionB>
@@ -553,6 +623,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>La alta disponibilidad se consigue:</enunciado>
         <opcionA>Replicando los sistemas cuya disponibilidad sea más baja.</opcionA>
         <opcionB>No es posible mejorar la disponibilidad de un sistema. Cuando el sistema empieza a fallar hay que cambiar el sistema entero.</opcionB>
@@ -561,6 +632,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cuando hablamos de escalar un sitio web, ¿a que nos referimos cuando nos hablamos de la transparencia de ubicación?</enunciado>
         <opcionA>A que exista dependencia de una máquina concreta para ejecutarse la aplicación.</opcionA>
         <opcionB>A que quede claro donde está cada servidor.</opcionB>
@@ -569,6 +641,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Hablando de escalabilidad, ¿qué tipo de escalados existen?</enunciado>
         <opcionA>Solo de ampliación vertical.</opcionA>
         <opcionB>Ampliación vertical y ampliación horizontal.</opcionB>
@@ -577,6 +650,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Los aspectos más importantes a la horas de implementar una granja web son:</enunciado>
         <opcionA>La seguridad.</opcionA>
         <opcionB>La disponibilidad.</opcionB>
@@ -585,6 +659,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si nuestro sistema estuvo activo 8000 horas en un año, y estuvo caido 800 horas durante ese año. ¿Cual fue sus disponibilidad?</enunciado>
         <opcionA>79.1%</opcionA>
         <opcionB>100%</opcionB>
@@ -593,6 +668,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Estamos en el mismo supuesto que la pregunta 1 del tema 1. La empresa va muy bien y contactan contigo para escalar el sistema que les montaste, ya que se queda corto ante tal número de peticiones. ¿Por dónde comenzarías a cambiar elementos del sistema?</enunciado>
         <opcionA>Escalamiento horizontal del hardware, montando más máquinas junto a las antiguas que ya tenían</opcionA>
         <opcionB>Añadir un balanceador web</opcionB>
@@ -601,6 +677,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Supongamos un sistema con dos servidores que tienen 75% y 66.666% de disponibilidad. ¿Cuál es el porcentaje de mejora de la disponibilidad si hiciéramos redundante el segundo servidor?</enunciado>
         <opcionA>22.222%</opcionA>
         <opcionB>75%</opcionB>
@@ -609,6 +686,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>A la hora de escalar el nivel de aplicaciones se requiere:</enunciado>
         <opcionA>Software diseñado para ejecutarse en varios servidores.</opcionA>
         <opcionB>Conocer qué servidor puede ser el cuello de botella.</opcionB>
@@ -617,6 +695,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si un módulo de una aplicación necesita ejecutarse obligatoriamente en una máquina con un hardware determinado, ¿qué es lo que no estamos consiguiendo?</enunciado>
         <opcionA>Paralelismo</opcionA>
         <opcionB>Transparencia de ubicación</opcionB>
@@ -625,6 +704,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Supongamos un sistema con dos componentes, funcionando el 93.5% y el 99.9% del tiempo respectivamente, y replicamos el primer componente, ¿cuáles serán las disponibilidades antes y después de replicarlo?</enunciado>
         <opcionA>92.6% y 99.5</opcionA>
         <opcionB>92.6% y 98.33</opcionB>
@@ -633,6 +713,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué es la escalabilidad? Seleccione la más correcta</enunciado>
         <opcionA>La capacidad del servidor para dar soporte a un gran número de usuarios.</opcionA>
         <opcionB>La capacidad del servidor para adaptarse a aumentos de la carga del sistema.</opcionB>
@@ -641,6 +722,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Supongamos tenemos un cliente con IP 192.168.1.12 que se conecta a un servidor con IP 254.25.53.34. El servidor está tras un router NAT con dirección 243.12.42.22. El cliente le manda una petición y el servidor le responde. En la respuesta que le llegua al cliente, ¿que dirección de origen aparece?</enunciado>
         <opcionA>254.25.53.0</opcionA>
         <opcionB>254.25.53.1</opcionB>
@@ -649,6 +731,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cuando queramos mejorar la disponibilidad de nuestro servidor web lo indicado es:</enunciado>
         <opcionA>Mejorar el software de alguno de los componentes de nuestro sistema.</opcionA>
         <opcionB>Aumentar el ancho de banda.</opcionB>
@@ -657,6 +740,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Aumentar el número de máquinas dentro de nuestro sistema...</enunciado>
         <opcionA>Siempre aumentará las prestaciones de nuestro servidor.</opcionA>
         <opcionB>Siempre aumentará las prestaciones del servicio al que destinemos las nuevas máquinas.</opcionB>
@@ -665,6 +749,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo podemos mejorar la disponibilidad del servidor si es baja por un fallo en uno de los elementos del hardware?</enunciado>
         <opcionA>Mejorando las aplicaciones y el acceso a ellas.</opcionA>
         <opcionB>Mejorando el rendimiento del elemento hardware.</opcionB>
@@ -673,6 +758,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué característica produce un mayor impacto en la escalabilidad de un sistema?</enunciado>
         <opcionA>La optimización del código.</opcionA>
         <opcionB>El diseño del sistema.</opcionB>
@@ -681,6 +767,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo podemos calcular la disponibilidad de un sistema con varios servidores? (Medimos la disponibilidad en tanto por ciento)</enunciado>
         <opcionA>Sumando las disponibilidades de los servidores</opcionA>
         <opcionB>Haciendo una media aritmética de las disponibilidades de los servidores</opcionB>
@@ -689,6 +776,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo podemos mejorar la disponibilidad de red si es baja?</enunciado>
         <opcionA>Mejorando el ancho de banda.</opcionA>
         <opcionB>Mejorando las aplicaciones y el acceso a ellas.</opcionB>
@@ -697,6 +785,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si la CPU de nuestro servidor tiene un uso muy alto, deberíamos:</enunciado>
         <opcionA>No hacer nada, es bueno que el uso sea alto.</opcionA>
         <opcionB>No hacer nada, no es necesario.</opcionB>
@@ -705,6 +794,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Con qué tanto por cierto (y su tiempo al año no disponible correspondiente) se conforman los sitios web?</enunciado>
         <opcionA>Alcanzar el 90% de disponibilidad (36.5 días no disponible)</opcionA>
         <opcionB>Alcanzar el 99.99% de disponibilidad (52.56 minutos no disponible)</opcionB>
@@ -713,6 +803,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo podemos calcular la disponibilidad de un sistema?</enunciado>
         <opcionA>Availability = Uptime / (2*Uptime + Downtime)</opcionA>
         <opcionB>Availability = Downtime / (Uptime + Downtime)</opcionB>
@@ -721,6 +812,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estos cambios puede ser suficiente para mejorar la escalabilidad?</enunciado>
         <opcionA>Añadir máquinas a algún subsistema e incrementar la RAM.</opcionA>
         <opcionB>Incrementar la RAM y CPU.</opcionB>
@@ -729,6 +821,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Para escalar un sitio web, tenemos que configurar...</enunciado>
         <opcionA>Aplicaciones y almacenamiento.</opcionA>
         <opcionB>Máquinas como servidores web.</opcionB>

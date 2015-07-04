@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 4: Balanceo de Carga" cantidad_preguntas="84">
+<tema titulo="Tema 4: Balanceo de Carga" cantidad_preguntas="Cantidad de preguntas: 84">
+    <preguntas>84</preguntas>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual no es un algoritmo de balanceo de carga?</enunciado>
         <opcionA>Round-Robin</opcionA>
         <opcionB>Basado en el menor numero de conexiones</opcionB>
@@ -9,6 +11,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Ventajas del balanceo de carga global?</enunciado>
         <opcionA>Facilidad de implementar</opcionA>
         <opcionB>Facilidad de comprender</opcionB>
@@ -17,6 +20,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En el ámbito de los servidores web de altas prestaciones, ¿qué significan las siglas VIP?</enunciado>
         <opcionA>Dirección privada a la que acceden los usuarios </opcionA>
         <opcionB>Dirección pública a la que acceden los usuarios</opcionB>
@@ -25,6 +29,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En el proceso al teclear una URL en el navegador...:</enunciado>
         <opcionA>Lo primero que ocurre es que el servidor devuelve la página HTML completa.</opcionA>
         <opcionB>Lo primero que ocurre es que el navegador hace la petición HTTP.</opcionB>
@@ -33,6 +38,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Algunos de los algoritmos más comunes de balanceo de carga son... :</enunciado>
         <opcionA>Basado en turnos (round-roubin) y balanceo por menor número de conexiones.</opcionA>
         <opcionB>Basado en ponderación y por prioridad.</opcionB>
@@ -41,6 +47,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En el algoritmo round-robin...</enunciado>
         <opcionA>El servidor se denomina Round y el balanceador Robin.</opcionA>
         <opcionB>Iguala los potenciales de las máquinas al menor potencial que ya exista.</opcionB>
@@ -49,6 +56,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En el algoritmo de balanceo basado en el menor número de conexiones...:</enunciado>
         <opcionA>Iguala todos los servidores con los mismos números de conexiones(el menor).</opcionA>
         <opcionB>Envía la primera petición al servidor con menor prestaciones.</opcionB>
@@ -57,6 +65,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>La persistencia consiste en:</enunciado>
         <opcionA>Evitar que los equipos se infecten por virus.</opcionA>
         <opcionB>Tener varios equipos configurados por si alguno falla.</opcionB>
@@ -65,6 +74,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué intenta conseguir el balanceo de carga global?</enunciado>
         <opcionA>Distribuir carga de trabajo entre centros de datos.</opcionA>
         <opcionB>Disminuir tiempos de conexión.</opcionB>
@@ -73,6 +83,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El balanceo de carga consiste en interceptar el tráfico para redirigirlo a varios servidores. Indica cual de las siguientes es una tecnología similar:</enunciado>
         <opcionA>Balanceo de carga en cortafuegos</opcionA>
         <opcionB>Balanceo de carga global</opcionB>
@@ -81,6 +92,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Enviar trabajo a máquinas que no están dando un buen rendimientos es un problema de...</enunciado>
         <opcionA>El algoritmo de balanceo basado en turnos.</opcionA>
         <opcionB>Ninguno de los dos algoritmos que aparecen en las opciones.</opcionB>
@@ -89,6 +101,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>EL balanceo de carga global usando protocolos de enrutamiento...</enunciado>
         <opcionA>Encuentra siempre el mejor camino y por lo tanto no presenta problemas.</opcionA>
         <opcionB>Puede ir por un camino poco eficiente y añadir por lo tanto retardo en la respuesta.</opcionB>
@@ -97,6 +110,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuándo utilizaremos algoritmos basados en ponderación en el balanceo de carga?</enunciado>
         <opcionA>Cuando las máquinas van a ser similares y vamos a servir carga contenido estático.</opcionA>
         <opcionB>Cuando las máquinas son similares y vamos a servir contenido dinámico.</opcionB>
@@ -105,6 +119,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cual de los siguientes algoritmos no es un algoritmo de balanceo de carga</enunciado>
         <opcionA>Algoritmo basado en el menor número de conexiones</opcionA>
         <opcionB>Algoritmo basado en ponderación</opcionB>
@@ -113,6 +128,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cual de las siguientes no es una característica del balanceo de carga global</enunciado>
         <opcionA>Presenta alta disponibilidad</opcionA>
         <opcionB>No requiere conocimiento de los DNS</opcionB>
@@ -121,6 +137,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué tag en html se usa para hacer redirección http básica?</enunciado>
         <opcionA>destination</opcionA>
         <opcionB>meta</opcionB>
@@ -129,6 +146,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál es el primer paso cuando se teclea una URL en el navegador?</enunciado>
         <opcionA>El servidor devuelve la página HTML completa</opcionA>
         <opcionB>El navegador muestra la información</opcionB>
@@ -137,6 +155,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué es VIP?</enunciado>
         <opcionA>No comprobar si una máquina está disponible</opcionA>
         <opcionB>Manejar protocolos de alto nivel</opcionB>
@@ -145,6 +164,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué es la persistencia?</enunciado>
         <opcionA>Si un dispositivo falla, otro pasa a hacer su función</opcionA>
         <opcionB>Tratar de evitar la degradación del servicio</opcionB>
@@ -153,6 +173,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de las siguientes es una solución basada en la disponibilidad y escalabilidad?</enunciado>
         <opcionA>Balanaceo de carga global</opcionA>
         <opcionB>Balanaceo de carga en cortafuegos</opcionB>
@@ -161,6 +182,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Virtual IP (VIP) es:</enunciado>
         <opcionA>La dirección pública a la que acceden los usuarios cuando hacen una petición de servicio a nuestro servidor web.</opcionA>
         <opcionB>La dirección privada a la que acceden los usuarios cuando hacen una petición de servicio a nuestro servidor web.</opcionB>
@@ -169,6 +191,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Un balanceador de carga:</enunciado>
         <opcionA>Es un puente entre los servidores y la red.</opcionA>
         <opcionB>Puede manejar los protocolos de alto nivel.</opcionB>
@@ -177,6 +200,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si vamos a tener servidores con diferente configuración y potencia, y vamos a servir diferentes aplicaciones y contenidos:</enunciado>
         <opcionA>Usamos algoritmos estáticos.</opcionA>
         <opcionB>Usamos algoritmos basados en ponderación.</opcionB>
@@ -185,6 +209,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cuál de estas opciones de balanceo eligirías para una granja web sencilla y de pocos recursos, como por ejemplo la de las preguntas de los dos primeros temas?</enunciado>
         <opcionA>Hacerse con un servidor antiguo o de bajo coste e instalar ZenLoadBalancer o similar</opcionA>
         <opcionB>Redirigir el tráfico a uno de los servidores principales e instalar HaProxy</opcionB>
@@ -193,6 +218,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El concepto "persistencia" hace referencia a:</enunciado>
         <opcionA>El servicio está disponible la mayor parte del tiempo.</opcionA>
         <opcionB>El balanceador redirige a todos los usuarios al mismo servidor.</opcionB>
@@ -201,6 +227,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo podemos usar el DNS para balancear la carga y cuál es el principal inconveniente de hacerlo?</enunciado>
         <opcionA>Asignar una misma dirección varias IP para repartir mediante round-robin. Round-robin es un algoritmo poco eficaz.</opcionA>
         <opcionB>Configurar el DNS para que conozca cuál es el servidor con menos carga y lo redirija a él. Es una configuración difícil y costosa.</opcionB>
@@ -209,6 +236,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Selecciona la respuesta correcta sobre una Granja web con balanceo de carga:</enunciado>
         <opcionA>Mantenimiento complejo</opcionA>
         <opcionB>Mejora la seguridad y Mejora la escalabilidad</opcionB>
@@ -217,6 +245,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>A la hora de realizar un balanceo de carga, ¿usarías balanceo mediante DNS?</enunciado>
         <opcionA>Sí, es igual de eficiente que usar un balanceador de carga HW independientemente de las circunstancias</opcionA>
         <opcionB>No, porque un balanceador de carga HW debe hacerlo mucho mejor</opcionB>
@@ -225,6 +254,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El balanceo de carga global tiene como fin..:</enunciado>
         <opcionA>Distribuir la carga entre varios centros de datos y evitar retrasos en las comunicaciones dirigiendo a sus visitantes a los servidores más cercanos de ellos geográficamente</opcionA>
         <opcionB>Reducir la carga de tráfico de todos los servidores de internet, independientemente de si tenemos o no control sobre ellos</opcionB>
@@ -233,6 +263,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuáles son los incovenientes de usar el algoritmo de balanceo basado en el menor número de conexiones?</enunciado>
         <opcionA>Sólo se puede implementar en redes que no superen el máximo de 100 conexiones diarias.</opcionA>
         <opcionB>No es adecuado cuando existen grandes diferencias entre las máquinas.</opcionB>
@@ -241,6 +272,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Ventajas que ofrece el GSLB?</enunciado>
         <opcionA>Todas son ciertas.</opcionA>
         <opcionB>Mejora el tiempo de respuesta.</opcionB>
@@ -249,6 +281,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Respecto a los algoritmos de balanceo de carg¿Cuándo usaremos algoritmos estáticos?</enunciado>
         <opcionA>Cuando las máquinas son heterogéneas y queremos servir contenido estático.</opcionA>
         <opcionB>Independientemente del tipo de máquinas de las que dispongamos y del contenido que vayamos a servir, podemos usar algoritmos estáticos.</opcionB>
@@ -257,6 +290,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En cual de los siguientes casos sería aconsejable utilizar el algoritmo de balanceo basado en turnos (round-robin).</enunciado>
         <opcionA>Cuando el número de conexiones no es un buen indicador.</opcionA>
         <opcionB>Cuando todas las máquinas tienen la misma potencia y vamos a servir aplicaciones o servicios sencillos.</opcionB>
@@ -265,6 +299,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de las siguientes afirmaciones sobre balanceo de carga global basado en DNS es incorrecta?</enunciado>
         <opcionA>La información geográfica es el mejor criterio para realizar balanceo de carga global.</opcionA>
         <opcionB>Se está monitorizando continuamente el estado de disponibilidad de los diferentes sitios, con el objetivo de enviar tráfico sólo a los sitios activos.</opcionB>
@@ -273,6 +308,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Señala que afirmación es la correcta:</enunciado>
         <opcionA>Los balanceadores solamente se ocupan de organizar la red.</opcionA>
         <opcionB>Los balanceadores solamente se ocupan de repartir tráfico entre los servidores de una granja.</opcionB>
@@ -281,6 +317,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El algoritmo de balanceo basado en turnos es adecuado ...</enunciado>
         <opcionA>si todas las maquinas tienen una potencia similar o si vamos a servir aplicaciones o servicios sencillos.</opcionA>
         <opcionB>si todas las maquinas tienen una potencia similar o si vamos a servir aplicaciones o servicios pesados.</opcionB>
@@ -289,6 +326,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Los algoritmos de balanceo de carga:</enunciado>
         <opcionA>Son métodos para repartir la carga entre servidores.</opcionA>
         <opcionB>Todos los algoritmos son independientes de las máquinas servidores.</opcionB>
@@ -297,6 +335,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿En que caso funciona bien el algoritmo de balanceo basado en el menor número de conexiones?</enunciado>
         <opcionA>Cuando las máquinas a balancear son muy diferentes entre si.</opcionA>
         <opcionB>Cuando las máquinas a balancear son bastante homogéneas.</opcionB>
@@ -305,6 +344,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>DNS usa la técnica</enunciado>
         <opcionA>Round-Robin</opcionA>
         <opcionB>SPN, Shortest Process Next</opcionB>
@@ -313,6 +353,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El balanceador de carga se configura</enunciado>
         <opcionA>Como punto de entrada para los usuarios</opcionA>
         <opcionB>Como punto de entrada a dos servidores</opcionB>
@@ -321,6 +362,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué funciones realiza el balanceador de carga?</enunciado>
         <opcionA>Ninguna respuesta es correcta.</opcionA>
         <opcionB>Comprueba la disponibilidad de los servidores.</opcionB>
@@ -329,6 +371,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Ventajas que ofrece un balanceador de carga:</enunciado>
         <opcionA>Mejora la escalabilidad y disponibilidad.</opcionA>
         <opcionB>Facilita el mantenimiento.</opcionB>
@@ -337,6 +380,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál fue la razón principal por la que dejaron de utilizarse los Mainframes como servidores?</enunciado>
         <opcionA>Porque no eran escalables y ofrecían un servicio hardware y software muy costoso.</opcionA>
         <opcionB>Los Mainframes siguen utilizándose como servidores en muchas empresas.</opcionB>
@@ -345,6 +389,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿De qué manera se accede a un sitio web si el servidor DNS local no conociese la IP de dicho sitio?</enunciado>
         <opcionA>No sería posible porque significaría que no existe el sitio buscado.</opcionA>
         <opcionB>El servidor DNS local buscaría la IP en los DNS del nivel superior al suyo. Si estos no tuviesen la IP buscada, repetirían el proceso y, como última opción, se llegaría a la máquina original.</opcionB>
@@ -353,6 +398,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Por qué es importante el concepto de persistencia?</enunciado>
         <opcionA>Porque permite que los servidores trabajen ininterrumpidamente gracias a los algoritmos de persistencia aplicados sobre ellos.</opcionA>
         <opcionB>Porque permiten que los sitios web sean invulnerables a ataques ya que la persitencia consiste en que los sistios web trabajen contra posibles fallos y ataques del exterior.</opcionB>
@@ -361,6 +407,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué algoritmo no se utiliza para el de balanceo de carga?</enunciado>
         <opcionA>balanceo basado en tiempo de respuesta</opcionA>
         <opcionB>balanceo basado en el menor número de conexiones</opcionB>
@@ -369,6 +416,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si las máquinas son heterogéneas y vamos a servir contenido dinámico, ¿Cuál sería el algoritmo de balanceo de carga adecuado para ser usado en este caso?</enunciado>
         <opcionA>Algoritmo basado en tiempo de respuesta.</opcionA>
         <opcionB>Algoritmo basado en prioridad.</opcionB>
@@ -377,6 +425,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Un servidor es...</enunciado>
         <opcionA>Un dispositivo que no ejecuta un servicio.</opcionA>
         <opcionB>Aquella entidad software que realiza de alguna manera peticiones de servicio a los proveedores del mismo.</opcionB>
@@ -385,6 +434,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si nos referimos al balanceo de carga, ¿Cuáles son algunos de los algoritmos más comunes?</enunciado>
         <opcionA>Balanceo basado en turnos, balanceo basado en el mayor número de conexiones y balanceo basado en ponderación.</opcionA>
         <opcionB>Balanceo basado en turnos, balanceo basado en el menor número de conexiones y balanceo basado en ponderación.</opcionB>
@@ -393,6 +443,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El balanceador de carga...</enunciado>
         <opcionA>Solamente se ocupa de redirigir el tráfico a los servidores finales</opcionA>
         <opcionB>Debe devolver los recursos que tenga en caché directamente a los clientes para no sobrecargar a los servidores finales</opcionB>
@@ -401,6 +452,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En una granja web, los servidores finales...</enunciado>
         <opcionA>Devuelven la respuesta directamente a la IP del cliente, estableciendo como IP de origen la VIP del balanceador</opcionA>
         <opcionB>Devuelven la respuesta al balanceador, estableciendo como IP de origen la VIP del balanceador</opcionB>
@@ -409,6 +461,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estos algoritmos de balanceo sólo es adecuado si vamos a servir aplicaciones o servicios sencillos?</enunciado>
         <opcionA>Balanceo basado en tiempo de respuesta</opcionA>
         <opcionB>Balanceo basado en prioridad</opcionB>
@@ -417,6 +470,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estos servicios de balanceo es software propietario?</enunciado>
         <opcionA>NginX</opcionA>
         <opcionB>BIG-IP</opcionB>
@@ -425,6 +479,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cual de los siguientes enunciados sobre el balanceo mediante DNS en el funcionamiento básico de un servidor es cierta:</enunciado>
         <opcionA>Su implementación no es para nada sencilla</opcionA>
         <opcionB>Los DNS se inventaron realmente para resolver nombres a IP</opcionB>
@@ -433,6 +488,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Respecto al balanceo de carga con dispositivos hardware:</enunciado>
         <opcionA>No se puede balancear la carga de dispositivos como cortafuegos o concentradores.</opcionA>
         <opcionB>Si un grupo de servidores o un balanceador falla , no se puede mantener la navegación de ninguna forma.</opcionB>
@@ -441,6 +497,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿De qué trata el clustering?</enunciado>
         <opcionA>Solución basada en la seguridad de servidores web.</opcionA>
         <opcionB>Ejecución paralela repartiendo el trabajo entre varias máquinas.</opcionB>
@@ -449,6 +506,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Por que el balanceo por servidores DNS no es fiable al 100%?</enunciado>
         <opcionA>Por que el DNS sirve para resolver nombres no para balancear la carga.</opcionA>
         <opcionB>Por que sólo utiliza el algoritmo round robbin.</opcionB>
@@ -457,6 +515,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cúal de las siguientes tecnologías se considera también balanceo de carga?</enunciado>
         <opcionA>Balanceo de carga en Cortafuegos</opcionA>
         <opcionB>Balanceo de carga Global</opcionB>
@@ -465,6 +524,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuanto algoritmos de balanceo de carga se han explicado en clase?</enunciado>
         <opcionA>2</opcionA>
         <opcionB>3</opcionB>
@@ -473,6 +533,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cúales de los 5 algoritmos explicados en clase tienden a ir juntos?</enunciado>
         <opcionA>Algoritmos de menor número de conexiones y ponderación</opcionA>
         <opcionB>Algoritmos de round robbin y prioridad</opcionB>
@@ -481,6 +542,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cuál de las siguientes afirmaciones es la correcta:</enunciado>
         <opcionA>Varias máquinas trabajando en paralelo no es mejor que una sola máquina mejor.</opcionA>
         <opcionB>El balanceo de carga distribuye el tráfico en un servidor.</opcionB>
@@ -489,6 +551,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cuál de las siguientes afirmaciones es la correcta:</enunciado>
         <opcionA>La traducción de direcciones no es una tarea del balanceador de carga.</opcionA>
         <opcionB>Cuando el servidor sirve contenido, el balanceador no puede hacer el cambio de poner la VIP en lugar de la IP final.</opcionB>
@@ -497,6 +560,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El concepto de persistencia se refiere a:</enunciado>
         <opcionA>Si un dispositivo falla, otro pasa a hacer su función</opcionA>
         <opcionB>Mantener el tráfico de un usuario dirigido al servidor que comenzó a atenderlo.</opcionB>
@@ -505,6 +569,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El uso de un algoritmo de balanceo basado en ponderacion esta recomendado cuando:</enunciado>
         <opcionA>Se persigue una distribucion del trabajo entre máquinas similares.</opcionA>
         <opcionB>Se persigue un metodo dinámico de distribucion del trabajo donde una petición puede tardar mas en una máquina concreta, es decir, está mas cargada que el resto.</opcionB>
@@ -513,6 +578,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Con respecto al mantenimiento, los balanceadores de carga:</enunciado>
         <opcionA>Son independientes del sistema operativo que haya en las máquinas servidoras.</opcionA>
         <opcionB>Dependen del sistema operativo que hay en las máquinas servidores.</opcionB>
@@ -521,6 +587,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de los siguientes algoritmos NO es un algoritmo de balanceo de carga?</enunciado>
         <opcionA>Algoritmo basado en ponderación.</opcionA>
         <opcionB>Combinación de los algoritmos de tiempo de respuesta y menor número de conexiones.</opcionB>
@@ -529,6 +596,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cómo se puede implementar la comprobación de disponibilidad de servicio?</enunciado>
         <opcionA>Con ICMP</opcionA>
         <opcionB>Con ARP</opcionB>
@@ -537,6 +605,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Ventajas del balanceo de carga global</enunciado>
         <opcionA>Redundancia y balanceo</opcionA>
         <opcionB>Se evita un retraso por el viaje de los paquetes a un centro situado a miles de kilómetros</opcionB>
@@ -545,6 +614,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si las máquinas van a ser similares y van a servir contenido estático, ¿Qué algoritmos usan?</enunciado>
         <opcionA>Algoritmos basados en ponderación</opcionA>
         <opcionB>Algoritmos estáticos</opcionB>
@@ -553,6 +623,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual de los siguientes NO es un algoritmo de balanceo de carga?</enunciado>
         <opcionA>Basado en turnos (Round-Robin)</opcionA>
         <opcionB>Basado en prioridad</opcionB>
@@ -561,6 +632,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuándo usaríamos Round-Robin?</enunciado>
         <opcionA>Si todos los servidores tienen potencia similar</opcionA>
         <opcionB>Cuando el software del balanceador lo crea oportuno</opcionB>
@@ -569,6 +641,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuales son las ventajas de usar un algoritmo de balanceo basado en el menor número de conexiones?</enunciado>
         <opcionA>Se consigue una distribución adecuada del trabajo entre las máquinas</opcionA>
         <opcionB>Se evita la sobrecarga de las máquinas que pudieran tener más trabajo</opcionB>
@@ -577,6 +650,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de los siguientes algoritmos es un algoritmo de balanceo de carga?</enunciado>
         <opcionA>Balanceo basado en tiempo de respuesta.</opcionA>
         <opcionB>Balanceo basado en el menor número de conexiones.</opcionB>
@@ -585,6 +659,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El algoritmo de balanceo basado en turnos es reconmendable si...</enunciado>
         <opcionA>Vamos a servir contenidos sencillos.</opcionA>
         <opcionB>Tenemos una máquina más lenta que las demas.</opcionB>
@@ -593,6 +668,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuáles son algunos de los beneficios del balanceo de carga?:</enunciado>
         <opcionA>Escalabilidad, mantenimiento, seguridad, calidad de servicio.</opcionA>
         <opcionB>Coste, escalabilidad, rendimiento, seguridad.</opcionB>
@@ -601,6 +677,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El balanceo de carga global es..:</enunciado>
         <opcionA>una nueva forma de balanceo de carga con mayor carga.</opcionA>
         <opcionB>una serie de técnicas para distribuir la carga entre varios centros de datos.</opcionB>
@@ -609,6 +686,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Con respecto al Balanceo de carga global, supone una mejora en:</enunciado>
         <opcionA>Alta Disponibilidad y Tiempo de Respuesta</opcionA>
         <opcionB>Tolerancia a Fallos</opcionB>
@@ -617,6 +695,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En los algoritmos de balanceo de carga basado en turnos:</enunciado>
         <opcionA>El algoritmo supone cada máquina con diferente potencia</opcionA>
         <opcionB>Es adecuado usarlo si todas las máquinas tienen una potencia similar</opcionB>
@@ -625,6 +704,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>La redundancia como concepto del balanceo de carga:</enunciado>
         <opcionA>No trata de evitar la degradación del servicio</opcionA>
         <opcionB>Existe una relación maestro-maestro solamente</opcionB>
@@ -633,6 +713,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué es un balanceador de carga?</enunciado>
         <opcionA>Un dispositivo software que distribuye el tráfico entre varios servidores.</opcionA>
         <opcionB>Un dispositivo hardware que distribuye el tráfico entre varios servidores.</opcionB>
@@ -641,6 +722,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Respecto al algoritmo de balanceo de carga round-robin...</enunciado>
         <opcionA>No resulta efectivo nunca, ya que asigna un peso a cada máquina.</opcionA>
         <opcionB>El servidor se denomina Round y el balanceador Robin.</opcionB>
@@ -649,6 +731,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual es una característica de los mainframes?</enunciado>
         <opcionA>Caros de adquirir y mantener</opcionA>
         <opcionB>Software y hardware propietario</opcionB>
@@ -657,6 +740,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Para que sirve un servidor DNS?</enunciado>
         <opcionA>Comprobar disponibilidad de los servidores</opcionA>
         <opcionB>Traducir nombres a IP</opcionB>
@@ -665,6 +749,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que entendemos por balanceador de carga?</enunciado>
         <opcionA>Dispositivo que ejecuta un servicio</opcionA>
         <opcionB>Forma de hacer que el conjunto de maquinas de la granja web aparezca como una sola</opcionB>
@@ -673,6 +758,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que entendemos por persistencia?</enunciado>
         <opcionA>Permisos de control de los usuarios</opcionA>
         <opcionB>Mantener el tráfico de un usuario dirigido al servidor que comenzó a atenderlo</opcionB>

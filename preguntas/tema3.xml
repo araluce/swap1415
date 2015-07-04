@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 3: La red de una Granja Web" cantidad_preguntas="84">
+<tema titulo="Tema 3: La red de una Granja Web" cantidad_preguntas="Cantidad de preguntas: 84">
+    <preguntas>84</preguntas>
     <pregunta>
+        <numero>1</numero>
         <enunciado>A la hora de configurar la red del sistema web.. ¿qué es backbone?</enunciado>
         <opcionA>Es una medida que indica la eficiencia del sistema web.</opcionA>
         <opcionB>Es el eje principal de enlace entre máquinas.</opcionB>
@@ -9,6 +11,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué alternativas tenemos para conectar la granja web a otras redes?</enunciado>
         <opcionA>Configuración sin DMZ( zona desmilitarizada)</opcionA>
         <opcionB>Configuración de DMZ simple.</opcionB>
@@ -17,6 +20,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En una granja web, los posibles peligros llegan:</enunciado>
         <opcionA>Desde Internet</opcionA>
         <opcionB>Por la red WiFi.</opcionB>
@@ -25,6 +29,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En una configuración de DMZ tradicional, el principal problema es... :</enunciado>
         <opcionA>El elevado ancho de banda que se necesita.</opcionA>
         <opcionB>La configuración de los servidores web.</opcionB>
@@ -33,6 +38,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El Backbone o eje principal de enlace entre máquina para la red del sistema, se puede formar con:</enunciado>
         <opcionA>Un Switch</opcionA>
         <opcionB>Un router</opcionB>
@@ -41,6 +47,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual de los siguientes servicios no se ofrece por el front-rail?</enunciado>
         <opcionA>HTTP</opcionA>
         <opcionB>Bases de datos</opcionB>
@@ -49,6 +56,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El Backbone es:</enunciado>
         <opcionA>Eje secundario de enlace entre máquinas</opcionA>
         <opcionB>Eje de enlace entre servidores</opcionB>
@@ -57,6 +65,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cuando se conecta una granja web a Internet..</enunciado>
         <opcionA>Conviene establecer filtros para que llegue a la máquina el tráfico que le deba llegar</opcionA>
         <opcionB>Otros tipos de tráfico no hacen falta bloquearse</opcionB>
@@ -65,6 +74,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que es el DMZ?</enunciado>
         <opcionA>Un firewall que controla el acceso a la red interna de la empresa.</opcionA>
         <opcionB>Una paradigma de red que consiste en replicar routers y switches para garantizar la seguridad.</opcionB>
@@ -73,6 +83,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que tipos de DMZ hay?</enunciado>
         <opcionA>DMZ simple, DMZ tradicional y DMZ doble.</opcionA>
         <opcionB>DMZ simple, DMZ doble y DMZ triple.</opcionB>
@@ -81,6 +92,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Con cual de los siguientes elementos se puede formar un backbone(eje principal)?</enunciado>
         <opcionA>Switch</opcionA>
         <opcionB>Router</opcionB>
@@ -89,6 +101,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que entendemos por DMZ?</enunciado>
         <opcionA>Área aislada en la que no se controla que servicios se ofrecen a otras redes externas</opcionA>
         <opcionB>Área restringida o aislada, y completamente controlada</opcionB>
@@ -97,6 +110,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual es la configuración más segura?</enunciado>
         <opcionA>Configuración sin DMZ</opcionA>
         <opcionB>Configuración DMZ tradicional</opcionB>
@@ -105,6 +119,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué servicios NO se suelen ofrecen por el front-rail?</enunciado>
         <opcionA>SMTP</opcionA>
         <opcionB>HTTP</opcionB>
@@ -113,6 +128,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué dos tipos de servidores hay?</enunciado>
         <opcionA>Single-NIC y multi-NIC</opcionA>
         <opcionB>Multi-NIC e index-NIC</opcionB>
@@ -121,6 +137,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿De qué factor o factores depende la conexión a Internet para asegurar la calidad de servicio y la seguridad?</enunciado>
         <opcionA>Filtrado y bloqueo de paquetes</opcionA>
         <opcionB>Network address translation (NAT)</opcionB>
@@ -129,6 +146,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿A quien dan servicio las maquinas conectadas a la subred trasera?</enunciado>
         <opcionA>Usuarios de la red corporativa</opcionA>
         <opcionB>Usuarios de internet</opcionB>
@@ -137,6 +155,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de la siguientes configuraciones es la más segura para conectar una granja web a otras redes?</enunciado>
         <opcionA>Configuración sin DMZ.</opcionA>
         <opcionB>Configuración DMZ tradicional.</opcionB>
@@ -145,6 +164,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El backbone NO se puede formar con:</enunciado>
         <opcionA>Un switch.</opcionA>
         <opcionB>Un hub.</opcionB>
@@ -153,6 +173,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que es el Backbone de una granja web?</enunciado>
         <opcionA>Se llama así a todas las conexiones que tienen los servidores en la parte de atrás</opcionA>
         <opcionB>Es el core principal donde se alojan los servidores primarios</opcionB>
@@ -161,6 +182,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que tipo de zona desmilitarizada utilizarías para una granja web?</enunciado>
         <opcionA>Configuración de DMZ tradicional</opcionA>
         <opcionB>Configuración de DMZ doble</opcionB>
@@ -169,6 +191,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que parámetros influyen en la calidad del servicio prestado?</enunciado>
         <opcionA>El ancho de banda</opcionA>
         <opcionB>El filtrado de paquetes</opcionB>
@@ -177,6 +200,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Para que el servidor web ofrezca unas prestaciones optimas y por tanto la calidad del servicio que se ofrece sea la adecuada es necesario (entre otras características ):</enunciado>
         <opcionA>Disponer de un buen ancho de banda de conexión a Internet.</opcionA>
         <opcionB>Poder filtrar y bloquear paquetes.</opcionB>
@@ -185,6 +209,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>El uso de NAT en la granja web es:</enunciado>
         <opcionA>Un factor importante para garantizar la calidad del servicio y su seguridad.</opcionA>
         <opcionB>Un factor para que el cortafuegos sea un posible cuello de botella.</opcionB>
@@ -193,6 +218,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué serie de configuraciones DMZ están ordenadas de menor a mayor seguridad?</enunciado>
         <opcionA>DMZ simple, DMZ tradicional, DMZ triple</opcionA>
         <opcionB>DMZ simple, DMZ doble, DMZ tradicional</opcionB>
@@ -201,6 +227,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual de las siguientes configuraciones requiere doble tarjeta de red?</enunciado>
         <opcionA>Conexión sólo al front-rail</opcionA>
         <opcionB>Conexión al front-rail y back-rail</opcionB>
@@ -209,6 +236,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué servicio no se ofrece por el front-rail?</enunciado>
         <opcionA>SMTP.</opcionA>
         <opcionB>Base de datos.</opcionB>
@@ -217,6 +245,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Al configurar una zona segura ¿cómo se comunican los backbones?</enunciado>
         <opcionA>Simplemente con un cable.</opcionA>
         <opcionB>Con una tarjeta de red.</opcionB>
@@ -225,6 +254,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En la configuración sin DMZ...</enunciado>
         <opcionA>Todos los equipos están conectados a la misma subred.</opcionA>
         <opcionB>Se comparte todos los recursos de la red.</opcionB>
@@ -233,6 +263,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En una buena configuración de red de un servidor..</enunciado>
         <opcionA>Normalmente los equipos que sirven HTTP, SMTP, POP3... tienen una configuración Multi-Nic.</opcionA>
         <opcionB>La opción a y b son correctoas.</opcionB>
@@ -241,6 +272,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual es la configuración más optima si se quiere implementar NAT en una granja?</enunciado>
         <opcionA>Repartir la carga con el balanceador a varios firewalls y que éstos pasen el tráfico filtrado a los equipos de la granja.</opcionA>
         <opcionB>Tener varios firewalls con NAT activado para que cada uno de ellos traduzca las peticiones a un equipo de la granja.</opcionB>
@@ -249,6 +281,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Al configurar una zona segura:</enunciado>
         <opcionA>Quedan controlados los servicios y las aplicaciones ofrecidos a otras redes externas al DMZ.</opcionA>
         <opcionB>Los servicios de la granja web no se ofrecen de forma estandar mediante direccion IP y puerto.</opcionB>
@@ -257,6 +290,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Los servidores conectados a la subred trasera son accesibles...</enunciado>
         <opcionA>Desde subredes seguras y controladas.</opcionA>
         <opcionB>Desde servidores con multi-NIC.</opcionB>
@@ -265,6 +299,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Si queremos implementar una DMZ y solo disponemos de un switch, podremos implementar</enunciado>
         <opcionA>DMZ doble</opcionA>
         <opcionB>DMZ tradicional</opcionB>
@@ -273,6 +308,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Las subredes se pueden crear con...</enunciado>
         <opcionA>switches</opcionA>
         <opcionB>hubs</opcionB>
@@ -281,6 +317,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estas configuraciones de red es más segura para una granja web?</enunciado>
         <opcionA>Configuración de DMZ tradicional</opcionA>
         <opcionB>Configuración de DMZ simple</opcionB>
@@ -289,6 +326,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estas configuraciones sería la óptima para un servidor de bases de datos en un DMZ doble?</enunciado>
         <opcionA>Conexión sólo al front-rail</opcionA>
         <opcionB>Conexión sólo al back-rail</opcionB>
@@ -297,6 +335,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Respecto a la configuración de una zona segura:</enunciado>
         <opcionA>Una configuración sin DMZ solo tiene sentido para una pequeña empresa donde no existan problemas de prestaciones.</opcionA>
         <opcionB>En una configuración sin DMZ no se comparte ningún tipo de recurso.</opcionB>
@@ -305,6 +344,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cuál de las siguientes características de una configuración con DMZ doble es correcta:</enunciado>
         <opcionA>La configuración de DMZ tradicional es más segura.</opcionA>
         <opcionB>Se basa en aislar todos los servidores con cortafuegos.</opcionB>
@@ -313,6 +353,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Sobre la seguridad entre servidores y redes en una granja web:</enunciado>
         <opcionA>Lo ideal es implementar una DMZ doble.</opcionA>
         <opcionB>En pequeñas empresas tiene sentido no implementar DMZ.</opcionB>
@@ -321,6 +362,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que tipo de servicios se ofrecen por el front-rail?</enunciado>
         <opcionA>Cualquier tipo (HTTP, FTP, Base de datos, terminal).</opcionA>
         <opcionB>Por el front-rail, por seguridad, no se ofrecen ningun tipo de servicio.</opcionB>
@@ -329,6 +371,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué se requiere para configurar una red?</enunciado>
         <opcionA>Elegir el modelo de red más adecuado.</opcionA>
         <opcionB>Elegir el hardware(estándar).</opcionB>
@@ -337,6 +380,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cúal es el eje principal de la red de un sistema?</enunciado>
         <opcionA>Switch.</opcionA>
         <opcionB>Router.</opcionB>
@@ -345,6 +389,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cual de las siguientes afirmaciones es falsa cuando hablamos de DMZ?</enunciado>
         <opcionA>Una DMZ se crea a menudo a través de las opciones de configuración del cortafuegos, donde cada red se conecta a un puerto distinto de éste.</opcionA>
         <opcionB>La DMZ se usa habitualmente para ubicar servidores que es necesario que sean accedidos desde fuera, como servidores de correo electrónico, Web y DNS</opcionB>
@@ -353,6 +398,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que ventajas tiene mapear una dirección IP pública a una privada utilizando NAT?</enunciado>
         <opcionA>Porque mejora la seguridad al ocultar las verdaderas direcciones IP de los servidores.</opcionA>
         <opcionB>Porque mejora la escalabilidad de nuestro servidor al mejorar el ancho de banda, ya que permite un tráfico mas fluido.</opcionB>
@@ -361,6 +407,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Una configuración sin DMZ (demilitarized zone) presenta el problema de…</enunciado>
         <opcionA>No se puede configurar una zona sin DMZ, por lo que el problema es ese mismo.</opcionA>
         <opcionB>Ataques solamente externos a la zona</opcionB>
@@ -369,6 +416,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>NAT nos sirve para</enunciado>
         <opcionA>mapear una dirección pública a una dirección privada de una de las máquinas servidoras internas</opcionA>
         <opcionB>obtener nuestra dirección ip desde el propio servidor</opcionB>
@@ -377,6 +425,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿cuál de las siguientes configuraciones de DMZ puede tener un problema de cuello de botella?</enunciado>
         <opcionA>DMZ simple.</opcionA>
         <opcionB>DMZ tradicional.</opcionB>
@@ -385,6 +434,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿qué se puede usar para el filtrado y bloqueo de paquetes de internet a una granja web?</enunciado>
         <opcionA>Cortafuegos.</opcionA>
         <opcionB>Routers.</opcionB>
@@ -393,6 +443,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que significa BackBone?</enunciado>
         <opcionA>Eje principal de enlace entre máquinas.</opcionA>
         <opcionB>Hueso negro.</opcionB>
@@ -401,6 +452,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Como se efectua la comunicacion entre backbones?</enunciado>
         <opcionA>Mediante switchs entre servidores.</opcionA>
         <opcionB>Mediante un cortafuegos o configurando servidores con doble tarjeta de red.</opcionB>
@@ -409,6 +461,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Cual de las siguientes es un problema a la hora de configuración de zona segura sin DMZ:</enunciado>
         <opcionA>Si uno de los servidores se ve comprometido, el resto de recursos puede ser atacado.</opcionA>
         <opcionB>Si uno de los servidores se ve comprometido, el resto de recursos son intocables.</opcionB>
@@ -417,6 +470,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Que requiere una conecxion sólo al back-rail?:</enunciado>
         <opcionA>Requiere sólo una tarjeta de red.</opcionA>
         <opcionB>Requieren servidores que no necesitan acceso a Internet.</opcionB>
@@ -425,6 +479,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál es la principal razón por la que se recomienda separar la red corporativa de la granja web?</enunciado>
         <opcionA>No hay razones, deben estar unidas para facilitar el acceso de los empleados de la empresa a los servidores.</opcionA>
         <opcionB>Evitar que los usuarios consuman muchos recursos de la red y se lo quiten a los clientes de la misma.</opcionB>
@@ -433,6 +488,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿A qué se denomina eje princpipal o Backbone de la red de una granja web?</enunciado>
         <opcionA>A los dispositivos que se encargan de conectar las máquinas que forman la granja (Switchs, Routers o Hubs).</opcionA>
         <opcionB>A los dispositivos que se encargan de mantener la seguridad de la granja (Cortafuegos).</opcionB>
@@ -441,6 +497,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Para dar salida a una granja web hacia internet...</enunciado>
         <opcionA>Es necesario contratar un ancho de banda suficiente para dar soporte al número medio de clientes de la empresa.</opcionA>
         <opcionB>Es necesario estudiar las necesidades de la granja y tener en cuentas posibles fallos por lo que, en ocasiones, habrá que contratar los servicios de varias empresas.</opcionB>
@@ -449,6 +506,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En una zona segura la comunicación entre backbones se realiza:</enunciado>
         <opcionA>Mediante un cortafuegos.</opcionA>
         <opcionB>Configurando servidores con una sola tarjeta de red.</opcionB>
@@ -457,6 +515,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de las siguientes configuraciones de zona segura provoca que el cortafuegos sea un cuello de botella?</enunciado>
         <opcionA>Configuración sin DMZ.</opcionA>
         <opcionB>Configuración de DMZ simple.</opcionB>
@@ -465,6 +524,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Por qué no es aconsejable configurar una zona segura con la técnica DMZ tradicional?</enunciado>
         <opcionA>Porque los servidores y las máquinas de escritorio comparten el ancho de banda y asegurar los servidores es más complicado.</opcionA>
         <opcionB>Por la dificultad de configurar correctamente el cortafuegos. Si tiene errores, entonces todo queda expuesto.</opcionB>
@@ -473,6 +533,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Front-rail y back-rail. ¿Cuál de las siguientes afirmaciones es correcta?</enunciado>
         <opcionA>Los servidores conectados al back-rail dan servicios a clientes a través de Internet.</opcionA>
         <opcionB>Los servidores conectados al back-rail son accesibles desde subredes seguras y controladas.</opcionB>
@@ -481,6 +542,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Conectar una granja web a redes seguras:</enunciado>
         <opcionA>Este tipo de conexión tiene más riesgos que conectarse directamente a Internet, ya que existen ataques desde las propias máquinas de la red, por lo que no es aconsejable.</opcionA>
         <opcionB>La conexión a redes seguras es similar a la conexión a Internet, pero con menos riesgos, por lo que no sería necesario configurar un cortafuegos ni establecer ningún tipo de seguridad.</opcionB>
@@ -489,6 +551,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué significan las siglas DMZ?</enunciado>
         <opcionA>Demasiadas marcas en la zona.</opcionA>
         <opcionB>Dominio de marca de la zona.</opcionB>
@@ -497,6 +560,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Señala cuál no es una alternativa para conectar la granja web a otras redes:</enunciado>
         <opcionA>Configuración de DMZ simple.</opcionA>
         <opcionB>Configuración de DMZ tradicional.</opcionB>
@@ -505,6 +569,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál es el verdadero problema de una zona sin desmilitarizar?</enunciado>
         <opcionA>Compartición del ancho de banda (servidores y máquinas de escritorio)</opcionA>
         <opcionB>Todas las opciones son correctas</opcionB>
@@ -513,6 +578,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de las siguientes configuraciones de zonas es la más segura?</enunciado>
         <opcionA>Configuración de DMZ triple</opcionA>
         <opcionB>Configuración de DMZ simple</opcionB>
@@ -521,6 +587,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de las siguientes afirmaciones es verdadera?</enunciado>
         <opcionA>Se pueden obtener servicios externos conectando a redes seguras</opcionA>
         <opcionB>La configuración de la red de la granja web se puede hacer de una única forma</opcionB>
@@ -529,6 +596,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>A la hora de configurar una zona segura lo más recomendable es:</enunciado>
         <opcionA>un DMZ simple.</opcionA>
         <opcionB>un DMZ tradicional.</opcionB>
@@ -537,6 +605,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En la calidad del servicio influye:</enunciado>
         <opcionA>el ancho de banda de conexión a Internet.</opcionA>
         <opcionB>el filtrado y bloqueo de paquetes.</opcionB>
@@ -545,6 +614,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué configuración de la zona desmilitarizada tiene como principal inconveniente que los servidores estén directamente conectados a Internet?</enunciado>
         <opcionA>Sin DMZ</opcionA>
         <opcionB>DMZ simple</opcionB>
@@ -553,6 +623,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Suponiendo que tenemos unos servidores de correo que ofrecen servicio a Internet. ¿Con qué conectaremos estos servidores?</enunciado>
         <opcionA>Front-rail</opcionA>
         <opcionB>Back-rail</opcionB>
@@ -561,6 +632,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En una granja web con configuración DMZ doble:</enunciado>
         <opcionA>El back-rail se conecta directamente a Internet y el front-rail se conecta a la red interna</opcionA>
         <opcionB>El front-rail se conecta directamente a Internet y el back-rail se conecta a la red interna</opcionB>
@@ -569,6 +641,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>Señalar la respuesta correcta:</enunciado>
         <opcionA>El NAT se encarga de mapear direcciones públicas a direcciones privadas</opcionA>
         <opcionB>El NAT no tiene nada que ver con la seguridad del sistema</opcionB>
@@ -577,6 +650,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuáles de los siguientes son problemas de la configuración de DMZ tradicional?</enunciado>
         <opcionA>Se comparte el ancho de banda y la red y los servidores están expuestos a Internet.</opcionA>
         <opcionB>Configurar el cortafuegos es muy difícil y además no separa a la granja web de los usuarios.</opcionB>
@@ -585,6 +659,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál es un problema de la configuración de DMZ simple?</enunciado>
         <opcionA>El cortafuegos puede ser un cuello de botella.</opcionA>
         <opcionB>Los servidores siguen estando comprometidos si un usuario mete un virus.</opcionB>
@@ -593,6 +668,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál de estas no es una alternativa para conectar la granja web a otras redes?</enunciado>
         <opcionA>Configuración sin DMZ.</opcionA>
         <opcionB>Configuración de DMZ simple.</opcionB>
@@ -601,6 +677,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál es el problema de la configuración con DMZ tradiconal?</enunciado>
         <opcionA>La configuración del cortafuegos es muy compleja.</opcionA>
         <opcionB>El cortafuegos puede ser un cuello de botella.</opcionB>
@@ -609,6 +686,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Cuál sería la configuración ideal para una granja Web?</enunciado>
         <opcionA>Configuración de DMZ doble</opcionA>
         <opcionB>Configuración de DMZ Tradicional</opcionB>
@@ -617,6 +695,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>La doble conexion al fron-rail y back-rail :</enunciado>
         <opcionA>Requiere una sola tarjeta de red</opcionA>
         <opcionB>Requiere una sola tarjeta de red y los servicios ofrecidos quedan aislados</opcionB>
@@ -625,6 +704,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>La conexion a internet de una granja web depende de los factores:</enunciado>
         <opcionA>Ancho de banda</opcionA>
         <opcionB>Calidad del servicio y ancho de banda,filtrado y bloqueo de paquetes, y NAT</opcionB>
@@ -633,6 +713,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué problemas puede producir una configuración sin DMZ?</enunciado>
         <opcionA>La no compartición del ancho de banda.</opcionA>
         <opcionB>Asegurar los servidores es más complicado y si uno de ellos se ve comprometido, el resto de recursos puede ser atacado.</opcionB>
@@ -641,6 +722,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué ventajas ofrece una configuración doble conexión al fron-rail y back-rail?</enunciado>
         <opcionA>No requiere doble tarjeta de red.</opcionA>
         <opcionB>Ofrece configuración para servidores HTTP,SMTP...pero no ofrece servicios hacia internet.</opcionB>
@@ -649,6 +731,7 @@
         <solucion>C</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué alternativas existen para conectar la granja web a otras redes?</enunciado>
         <opcionA>Configuración de DMZ simple, doble y tradicional</opcionA>
         <opcionB>Configuración sin DMZ</opcionB>
@@ -657,6 +740,7 @@
         <solucion>D</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué problemas puede producir una configuración de DMZ simple?</enunciado>
         <opcionA>Que los servidores no se conecten directamente a internet.</opcionA>
         <opcionB>Que el cortafuegos pueda producir un cuello de botella.</opcionB>
@@ -665,6 +749,7 @@
         <solucion>B</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>¿Qué ventaja podemos encontrar usando una configuración de DMZ simple frente a una configuración sin DMZ?</enunciado>
         <opcionA>La red compartida queda protegida gracias al cortafuegos.</opcionA>
         <opcionB>Los servidores ya no comparten ancho de banda.</opcionB>
@@ -673,6 +758,7 @@
         <solucion>A</solucion>
     </pregunta>
     <pregunta>
+        <numero>1</numero>
         <enunciado>En una configuración de DMZ tradicional...</enunciado>
         <opcionA>El DMZ tiene un front-rail y un back-rail.</opcionA>
         <opcionB>quedan los servidores expuestos.</opcionB>
