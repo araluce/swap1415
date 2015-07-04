@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 4: Balanceo de Carga" cantidad_preguntas="Cantidad de preguntas: 84">
+<tema titulo="Tema 4: Balanceo de Carga" cantidad_preguntas="84">
     <preguntas>84</preguntas>
     <pregunta>
         <numero>1</numero>
